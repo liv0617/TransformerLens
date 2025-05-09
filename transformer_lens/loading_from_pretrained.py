@@ -255,6 +255,12 @@ OFFICIAL_MODEL_NAMES = [
     "google-t5/t5-base",
     "google-t5/t5-large",
     "ai-forever/mGPT",
+    "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+    "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+    "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+    "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+    "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+    "deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
 ]
 """Official model names for models on HuggingFace."""
 
@@ -685,6 +691,30 @@ MODEL_ALIASES = {
     "google-t5/t5-base": ["t5-base"],
     "google-t5/t5-large": ["t5-large"],
     "ai-forever/mGPT": ["mGPT"],
+    "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B": [
+        "DeepSeek-R1-Distill-Qwen-1.5B",
+        "R1-Distill-Qwen-1.5B"
+    ],
+    "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B": [
+        "DeepSeek-R1-Distill-Qwen-7B",
+        "R1-Distill-Qwen-7B"
+    ],
+    "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B": [
+        "DeepSeek-R1-Distill-Qwen-14B",
+        "R1-Distill-Qwen-14B"
+    ],
+    "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B": [
+        "DeepSeek-R1-Distill-Qwen-32B",
+        "R1-Distill-Qwen-32B"
+    ],
+    "deepseek-ai/DeepSeek-R1-Distill-Llama-8B": [
+        "DeepSeek-R1-Distill-Llama-8B",
+        "R1-Distill-Llama-8B"
+    ],
+    "deepseek-ai/DeepSeek-R1-Distill-Llama-70B": [
+        "DeepSeek-R1-Distill-Llama-70B",
+        "R1-Distill-Llama-70B"
+    ],
 }
 """Model aliases for models on HuggingFace."""
 
